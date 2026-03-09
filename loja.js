@@ -34,7 +34,7 @@ mostrarpeças()
 
 function removepeças(nome){
     peças.splice(nome,1)
-    valores.splice(valores,1)
+    valores.splice(nome,1)
 }
 removepeças(2)
 
