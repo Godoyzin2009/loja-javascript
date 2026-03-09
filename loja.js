@@ -12,8 +12,8 @@ Imagine que você abriu uma loja:
     - remove um elemento pelo índice
     - mostra estoque
 */
-let peças = ["turbina .50", "FuelTech 700", "TBI", "Pistão forjado", "coletor de admissão", "biela forjada", "cabeçote", "cambio forjado"]
-let valores = [ 2954 , 25000 , 500 , 2900 , 1000 , 2000 , 2400 , 10000]
+const peças = ["turbina .50", "FuelTech 700", "TBI", "Pistão forjado", "coletor de admissão", "biela forjada", "cabeçote", "cambio forjado"]
+const valores = [ 2954 , 25000 , 500 , 2900 , 1000 , 2000 , 2400 , 10000]
 function mostrarpeças(){
     contador = 0
 while(contador < peças.length){
